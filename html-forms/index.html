@@ -6,38 +6,36 @@
   <body>
     <h1>Coding Form!</h1>
     <form action="">
+      <label for="email">Email</label>
       <div>
-        <label for="email">Email</label>
+        <input type="text" id="email">
       </div>
-      <input type="text" id="email">
+      <label for="dropdown">Why is coding cool?</label>
       <div>
-        <label for="dropdown">Why is coding cool?</label>
-        <div>
-          <select name="why is coding cool?" id="dropdown">
-            <option value="select an option">Select an option</option>
-            <option value="Interesting">Because it's interesting</option>
-            <option value="Fun">Because it's fun</option>
-            <option value="Powerful">Because it's powerful</option>
-          </select>
-        </div>
+        <select name="why is coding cool?" id="dropdown">
+          <option value="select an option">Select an option</option>
+          <option value="Interesting">Because it's interesting</option>
+          <option value="Fun">Because it's fun</option>
+          <option value="Powerful">Because it's powerful</option>
+        </select>
       </div>
       <p>
         Favorite Language (choose one)
       </p>
-      <p>
+      <div>
         <label for="html">
-          <input type="radio" name="rating" value="HTML" id="html">
+          <input type="radio" name="Favorite Language" value="HTML" id="html">
           HTML
         </label>
         <label for="css">
-          <input type="radio" name="rating" value="CSS" id="css">
+          <input type="radio" name="Favorite Language" value="CSS" id="css">
           CSS
         </label>
         <label for="JavaScript">
-          <input type="radio" name="rating" value="JavaScript" id="JavaScript">
+          <input type="radio" name="Favorite Language" value="JavaScript" id="JavaScript">
           JavaScript
         </label>
-      </p>
+      </div>
       <p>
         Would you like to sign up for more information?
       </p>
@@ -46,13 +44,9 @@
           <input type="checkbox" id="signup">Sign me up!</label>
       </div>
       <div>
-        <label for="comments">
-          Comments
-        </label>
-        <div>
-          <textarea rows="8" cols="30" id="comments"></textarea>
-        </div>
+        <label for="comments">Comments</label>
       </div>
+      <textarea rows="8" cols="30" id="comments"></textarea>
       <div>
         <label for="button"></label>
         <input type="submit" id="button" value="Submit">
