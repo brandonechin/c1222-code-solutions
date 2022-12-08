@@ -1,0 +1,78 @@
+h3 {
+  text-align: center;
+  font-family: "Brandon Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  src: url("BrandonGrotesque-Medium.woff2") format("woff2");
+  color: rgb(236 93 87);
+  margin-bottom: 2px;
+}
+
+form {
+  width: 50%;
+  margin: auto;
+}
+
+input {
+  width: 100%;
+  border-radius: 3px;
+  border-width: 0.5px;
+  border-color: gray;
+  border-style: solid;
+  padding: 8px 10px;
+  margin-bottom: 10px;
+  margin-top: 2px;
+}
+
+#email::placeholder,
+#name::placeholder,
+#where::placeholder {
+  font-size: 0.5;
+  color: rgb(73 63 63 / 62.8%);
+}
+
+select {
+  width: 100%;
+  padding: 6px 3px;
+  background-color: rgb(243 243 243);
+  border-radius: 3px;
+  border-width: 0.5px;
+  border-color: gray;
+  border-style: solid;
+  margin-bottom: 10px;
+  margin-top: 2px;
+  font-family: "Brandon Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  src: url("BrandonGrotesque-Regular.woff2") format("woff2");
+}
+
+div {
+  text-align: right;
+}
+
+button {
+  background-color: rgb(236 93 87);
+  font-family: "Brandon Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  src: url("BrandonGrotesque-Medium.woff2") format("woff2");
+  border-radius: 20px;
+  border: none;
+  color: white;
+  padding: 8px 20px;
+}
+
+label {
+  font-family: "Brandon Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.6rem;
+  src: url("BrandonGrotesque-Medium.woff2") format("woff2");
+  padding-left: 8px;
+}
+
+fieldset {
+  border: none;
+}
