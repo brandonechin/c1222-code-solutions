@@ -1,0 +1,76 @@
+body {
+  font-family: Karla, sans-serif;
+}
+
+h1 {
+  font-family: Karla, sans-serif;
+  font-size: 45px;
+  letter-spacing: 3px;
+  margin-top: 70px;
+  margin-bottom: 25px;
+}
+
+h3 {
+  font-size: 13px;
+  padding-left: 8px;
+}
+
+p {
+  font-size: 13px;
+  font-weight: 100;
+  line-height: 1.3rem;
+  padding-right: 40px;
+  padding-left: 8px;
+}
+
+input {
+  font-family: Karla, sans-serif;
+  font-weight: bold;
+  background-color: white;
+  color: rgb(209 76 69);
+  border-color: rgb(209 76 69);
+  border-style: solid;
+  padding: 8px 35px;
+  border-width: 2px;
+}
+
+img {
+  padding-bottom: 120px;
+  height: 200px;
+  max-width: 100%;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+.col-half {
+  flex-basis: 50%;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.justify-content {
+  justify-content: center;
+}
+
+.text-align {
+  text-align: center;
+}
+
+.header-p {
+  font-size: 13px;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.margin-top {
+  margin-top: 13px;
+}
