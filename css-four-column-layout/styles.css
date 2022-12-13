@@ -1,0 +1,60 @@
+body {
+  font-family: Barlow, sans-serif;
+}
+
+h2 {
+  font-size: 2.6rem;
+  font-weight: 800;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding-bottom: 25px;
+}
+
+img {
+  height: 650px;
+  width: 425px;
+}
+
+.container {
+  max-width: 2400px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+.col-one-fourth {
+  flex-basis: calc(100% / 4);
+}
+
+.justify-content {
+  justify-content: center;
+}
+
+.text-align {
+  text-align: center;
+}
+
+.image-icon {
+  height: 95px;
+  width: 95px;
+}
+
+.background {
+  background-color: rgb(247 248 250);
+}
+
+.plr {
+  padding: 0 260px;
+}
