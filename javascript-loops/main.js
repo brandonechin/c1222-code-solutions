@@ -6,9 +6,9 @@
             getKeys,
             getValues
  */
-var numbers = [];
-var currentNumber = 0;
 function getNumbersToTen() {
+  var numbers = [];
+  var currentNumber = 0;
   while (currentNumber < 10) {
     currentNumber++;
     numbers.push(currentNumber);
@@ -16,9 +16,9 @@ function getNumbersToTen() {
   return numbers;
 }
 
-var evenNumbers = [];
-var currentNumbers = 0;
 function getEvenNumbersToTwenty() {
+  var evenNumbers = [];
+  var currentNumbers = 0;
   while (currentNumbers < 20) {
     currentNumbers += 2;
     evenNumbers.push(currentNumbers);
@@ -26,9 +26,9 @@ function getEvenNumbersToTwenty() {
   return evenNumbers;
 }
 
-var repeated = '';
-var count = 0;
 function repeatWord(word, times) {
+  var repeated = '';
+  var count = 0;
   while (count < times) {
     count++;
     repeated += word;
@@ -43,8 +43,8 @@ function logEachCharacter(string) {
   }
 }
 
-var doubled = [];
 function doubleAll(numbers) {
+  var doubled = [];
   for (let i = 0; i < numbers.length; i++) {
     var numbersDbl = numbers[i] * 2;
     doubled.push(numbersDbl);
@@ -52,16 +52,16 @@ function doubleAll(numbers) {
   return doubled;
 }
 
-var keys = [];
 function getKeys(object) {
+  var keys = [];
   for (const property in object) {
     keys.push(property);
   }
   return keys;
 }
 
-var values = [];
 function getValues(object) {
+  var values = [];
   for (const property in object) {
     values.push(object[property]);
   }
