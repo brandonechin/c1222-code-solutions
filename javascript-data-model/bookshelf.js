@@ -15,3 +15,7 @@ var bookshelf = [
     author: 'Phil Sturgeon & Laura Bohill'
   }
 ];
+
+console.log('Author of JSON Quick Syntax Reference:', bookshelf[1].author);
+console.log('isbn of Introduction to JavaScript Object Notation: A To-the-Point Guide to JSON:', bookshelf[0].isbn);
+console.log('book title:', bookshelf[2].title);
