@@ -11,10 +11,12 @@ h1 {
 img {
   height: 525px;
   width: 320px;
+  object-fit: contain;
 }
 
 p {
   font-weight: bold;
+  margin-top: 0;
 }
 
 s {
