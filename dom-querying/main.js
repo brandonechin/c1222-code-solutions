@@ -1,0 +1,11 @@
+console.log('test', 'hello, world');
+var h1 = document.querySelector('h1');
+console.dir(h1);
+var explain = document.querySelector('#explanation');
+console.dir(explain);
+var hint = document.querySelector('.hint');
+console.dir(hint);
+var allParagraphs = document.querySelectorAll('p');
+console.log(allParagraphs);
+var allExample = document.querySelectorAll('.example-link');
+console.log(allExample);
