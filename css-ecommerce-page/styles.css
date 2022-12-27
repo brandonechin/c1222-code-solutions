@@ -1,0 +1,54 @@
+body {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-size: 38px;
+}
+
+img {
+  height: 525px;
+  width: 320px;
+  object-fit: contain;
+}
+
+p {
+  font-weight: bold;
+  margin-top: 0;
+}
+
+s {
+  color: rgb(215 215 215);
+}
+
+.container {
+  max-width: 100%;
+}
+
+.row {
+  display: flex;
+}
+
+.column-one-fifth {
+  flex-basis: calc(100% / 5);
+}
+
+.center-content {
+  justify-content: center;
+}
+
+.size {
+  color: rgb(215 215 215);
+  border-color: rgb(215 215 215);
+  border-left: 1px solid;
+  padding-left: 5px;
+  font-weight: normal;
+}
+
+.newprice {
+  background-color: rgb(255 242 231);
+  border-radius: 5px;
+  padding: 1px;
+}
