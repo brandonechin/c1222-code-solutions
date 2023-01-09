@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  height: 1000px;
+  align-items: center;
+  justify-content: center;
+}
+
+.container.on {
+  background-color: rgb(254 249 241);
+}
+
+.container.off {
+  background-color: rgb(17 17 17);
+}
+
+button {
+  height: 210px;
+  width: 210px;
+  border: none;
+  border-radius: 50%;
+}
+
+.button-on {
+  background-color: rgb(250 234 132);
+  box-shadow: 5px 5px 5px rgb(250 234 132);
+}
+
+.button-off {
+  background-color: rgb(37 37 37);
+  box-shadow: 5px 5px 5px rgb(37 37 37);
+}
