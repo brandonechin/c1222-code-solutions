@@ -1,6 +1,6 @@
 let currentCount = 3;
 function countDown() {
-  if (currentCount !== 0) {
+  if (currentCount > 0) {
     console.log(currentCount);
   } else {
     console.log('Blast off!');
