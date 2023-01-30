@@ -1,3 +1,3 @@
-select *
+SELECT *
   from "actors"
  where "actorId" = '40'

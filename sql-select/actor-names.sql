@@ -1,4 +1,4 @@
-select "actorId",
+SELECT "actorId",
        "firstName",
        "lastName"
   from "actors";

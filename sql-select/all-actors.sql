@@ -1,2 +1,2 @@
-select *
+SELECT *
   from "actors";
