@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 const h1 = React.createElement(
   'h1',
-  [null],
+  null,
   ['Hello, React!']
 );
 
