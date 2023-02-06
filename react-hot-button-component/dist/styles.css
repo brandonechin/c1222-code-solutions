@@ -1,0 +1,29 @@
+.hot-button.purple {
+  background-color: rgb(53 28 117);
+  color: white;
+}
+
+.hot-button.light-purple {
+  background-color: rgb(103 78 167);
+  color: white;
+}
+
+.hot-button.red {
+  background-color: rgb(224 102 102);
+  color: white;
+}
+
+.hot-button.orange {
+  background-color: rgb(246 178 107);
+  color: black;
+}
+
+.hot-button.yellow {
+  background-color: rgb(255 255 0);
+  color: black;
+}
+
+.hot-button.white {
+  background-color: white;
+  color: black;
+}
