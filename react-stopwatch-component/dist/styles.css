@@ -1,0 +1,18 @@
+.circle {
+  width: 100px;
+  height: 100px;
+  border: solid;
+  border-radius: 50%;
+  position: relative;
+}
+
+.number {
+  position: absolute;
+  top: 45px;
+  left: 45px;
+}
+
+.buttons {
+  margin-top: 10px;
+  margin-left: 48px;
+}
