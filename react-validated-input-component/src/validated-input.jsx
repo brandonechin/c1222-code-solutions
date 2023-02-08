@@ -4,7 +4,6 @@ export function ValidatedInput() {
   const [password, setPassword] = useState('');
 
   function handlePasswordChange(event) {
-
     setPassword(event.target.value);
   }
 
@@ -23,16 +22,16 @@ export function ValidatedInput() {
     }
     return [icon, message];
   }
-  const passwordCheck = passwordChecks();
+  const [icon, message] = passwordChecks();
   return (
     <>
       <div>
         <label>Password</label>
       </div>
       <input type='password' value={password} onChange={handlePasswordChange} />
-      <i className={passwordCheck[0]}></i>
+      <i className={icon}></i>
       <div>
-        <h5>{passwordCheck[1]}</h5>
+        <h5>{message}</h5>
       </div>
     </>
   );
