@@ -1,0 +1,32 @@
+body {
+  font-size: 14px;
+}
+
+.title-box {
+  border: 1px solid;
+  height: 40px;
+  width: 300px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.title-box:hover {
+  border: 0.5px solid;
+  height: 40px;
+  width: 300px;
+  cursor: pointer;
+  background-color: rgb(225 220 245);
+}
+
+.description {
+  border: solid;
+  height: 100px;
+  width: 300px;
+}
+
+.description-hidden {
+  border: solid;
+  height: 100px;
+  width: 300px;
+  display: none !important;
+}
