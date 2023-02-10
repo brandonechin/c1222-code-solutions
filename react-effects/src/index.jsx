@@ -11,8 +11,8 @@ function List() {
   //  - Read the items using `readItems` and update state so the list displays
 
   useEffect(() => {
-    const data = readItems();
-    data
+
+    readItems()
       .then((resolve) => {
         setItems(resolve);
         setIsLoading(false);
@@ -20,6 +20,7 @@ function List() {
       .catch((reject) => {
         // eslint-disable-next-line no-console
         console.log(reject);
+        setIsLoading(false);
       });
   }, []);
 
