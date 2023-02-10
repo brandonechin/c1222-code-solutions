@@ -1,0 +1,47 @@
+img {
+  height: 200px;
+}
+
+.row {
+  display: flex;
+}
+
+.pic-container {
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.container {
+  border: solid;
+  width: 500px;
+  text-align: center;
+}
+
+.center {
+  justify-content: center;
+}
+
+.dots {
+  margin: 15px;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.fa-circle {
+  margin: 5px;
+}
+
+.fa-chevron-left {
+  padding-left: 25px;
+  font-size: 25px;
+  padding-top: 30px;
+  cursor: pointer;
+}
+
+.fa-chevron-right {
+  padding-right: 25px;
+  font-size: 25px;
+  padding-top: 30px;
+  cursor: pointer;
+}
