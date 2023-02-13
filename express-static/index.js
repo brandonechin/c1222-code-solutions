@@ -9,5 +9,6 @@ const middleware = express.static(publicDirectory);
 app.use(middleware);
 
 app.listen(3000, () => {
+  // eslint-disable-next-line no-console
   console.log('listening on port 3000!');
 });
