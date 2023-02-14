@@ -6,6 +6,7 @@ import TodoForm from './todo-form';
 
 export default function App() {
   const [todos, setTodos] = useState([]);
+  const [error, setError] = useState('');
 
   useEffect(() => {
     /**
@@ -22,6 +23,7 @@ export default function App() {
       })
       .catch((reject) => {
         console.error(reject);
+        setError(reject);
       });
   }, []);
 
@@ -54,7 +56,10 @@ export default function App() {
         const combinedTodos = todosCopy.concat(response);
         setTodos(combinedTodos);
       })
-      .catch((err) => console.error(err));
+      .catch((err) => {
+        console.error(err);
+        setError(err);
+      });
   }
 
   function toggleCompleted(todoId) {
@@ -102,18 +107,33 @@ export default function App() {
       })
       .catch((err) => {
         console.error(err);
+        setError(err);
       });
   }
-
-  return (
-    <div className="container">
-      <div className="row">
-        <div className="col pt-5">
-          <PageTitle text="Todo App" />
-          <TodoForm onSubmit={addTodo} />
-          <TodoList todos={todos} toggleCompleted={toggleCompleted} />
+  if (error) {
+    return (
+      <div className="container">
+        <div className="row">
+          <div className="col pt-5">
+            <h1 className="mb-4">An unexpected error has occurred.
+              Please try again...</h1>
+            <TodoForm onSubmit={addTodo} />
+            <TodoList todos={todos} toggleCompleted={toggleCompleted} />
+          </div>
         </div>
       </div>
-    </div>
-  );
+    );
+  } else {
+    return (
+      <div className="container">
+        <div className="row">
+          <div className="col pt-5">
+            <PageTitle text="Todo App" />
+            <TodoForm onSubmit={addTodo} />
+            <TodoList todos={todos} toggleCompleted={toggleCompleted} />
+          </div>
+        </div>
+      </div>
+    );
+  }
 }
