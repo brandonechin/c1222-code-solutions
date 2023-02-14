@@ -1,0 +1,50 @@
+h2 {
+  margin-left: 10px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.switch.off {
+  position: relative;
+  width: 60px;
+  height: 34px;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 34px;
+  cursor: pointer;
+}
+
+.switch.on {
+  position: relative;
+  width: 60px;
+  height: 34px;
+  background-color: green;
+  transition: 0.4s;
+  border-radius: 34px;
+  cursor: pointer;
+}
+
+.slider.off {
+  position: absolute;
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+.slider.on {
+  position: absolute;
+  height: 26px;
+  width: 26px;
+  right: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
