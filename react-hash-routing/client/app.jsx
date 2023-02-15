@@ -9,10 +9,11 @@ export default function App() {
   const [route, setRoute] = useState(parseRoute(window.location.hash));
 
   useEffect(() => {
-    window.addEventListener('hashchange', (event) => {
+    function handleRouteChange() {
       setRoute(parseRoute(window.location.hash));
-    });
-    return () => window.removeEventListener('hashchange', setRoute(parseRoute(window.location.hash)));
+    }
+    window.addEventListener('hashchange', handleRouteChange);
+    return () => window.removeEventListener('hashchange', handleRouteChange);
   }, []);
   /**
      * Listen for hash change events on the window object
