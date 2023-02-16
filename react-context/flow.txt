@@ -1,0 +1,15 @@
+User can sign up.
+
+When user types in username and password. A post request is being sent to the server and the username and hashedpassword is being inserted into the users table of the database.
+
+User can sign in.
+
+When user types in username and password. A post request is being sent to the server verifies the password in the database and if it matches, user can sign in.
+
+User can stay signed in (even if they refresh the page).
+
+users are able to stay signed in because of the token.
+
+User can sign out.
+
+When a user signs out, the handleSignOut function removes the jwt from local storage and resets the state.
