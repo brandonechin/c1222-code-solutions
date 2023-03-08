@@ -1,10 +1,10 @@
 /* exported takeNextSmallest */
 
 function takeNextSmallest(queue) {
-  if (typeof queue.peek() === 'undefined') return;
+  if (queue.peek() === undefined) return;
   let removed = queue.dequeue();
 
-  if (typeof queue.peek() === 'undefined') { return removed; }
+  if (queue.peek() === undefined) { return removed; }
 
   if (removed <= queue.peek()) { return removed; }
 
